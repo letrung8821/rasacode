@@ -1,0 +1,87 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask ability
+  - goodbye
+  - khoa công nghệ thông tin
+  - văn phòng đoàn khoa công nghệ thông tin
+  - hiệu trưởng trường IUH
+  - đơn vị liên kết với khoa công nghệ thông tin
+  - địa chỉ web của khoa công nghệ thông tin
+
+
+
+responses:
+  utter_greet:
+  - text: "chào bạn"
+
+  utter_ask_ability:
+  - text: "Chào bạn. \nMình có thể trả lời bạn một số thắc mắc của bạn về Trường Đại học Công Nghiệp Thành phố Hồ Chí Minh"
+
+  utter_khoa_cong_nghe_thong_tin:
+  - text: "12 Nguyễn Văn Bảo, Q. Gò Vấp, TP. Hồ Chí Minh, Khoa Công nghệ Thông tin - Lầu 1 - Nhà H"
+
+  utter_van_phong_doan_khoa_cntt:
+  - text: "B1.4 Trường Đại Học Công Nghiệp"
+
+  utter_goodbye:
+  - text: "tạm biệt"
+
+  utter_hieu_truong_truong_IUH:
+  - text: "Hiệu trưởng: TS. Phan Hồng Hải, Phó hiệu trường: GS-TS. Lê Văn Tán, PGS-TS. Đàm Sao Mai, TS. Nguyễn Xuân Hồng"
+
+  utter_don_vi_lien_ket_voi_khoa_cong_nghe_thong_tin:
+  - text: "KMS Technology, Internship, Global CyberSoft, Gameloft"
+
+  utter_dia_chi_web_khoa_cong_nghe_thong_tin:
+  - text: "http://fit.iuh.edu.vn/"
+
+  utter_fb_quick_reply_example:
+   - text: Hello World!
+     quick_replies:
+       - title: Text quick reply
+         payload: /example_intent
+       - title: Image quick reply
+         payload: /example_intent
+         image_url: http://example.com/img/red.png
+       # below are Facebook provided quick replies
+       # the title and payload will be filled
+       # with the user's information from their profile
+       - content_type: user_email
+         title:
+         payload:
+       - content_type: user_phone_number
+         title:
+         payload:
+
+  utter_fb_element_example:
+   - text: Hello World!
+     elements:
+       - title: Element Title 1
+         subtitle: Subtitles are supported
+         buttons: # note the button limit still applies here
+           - title: Example button A
+             payload: /example_intent
+           - title: Example button B
+             payload: /example_intent
+           - title: Example button C
+             payload: /example_intent
+       - title: Element Title 2
+         image_url: http://example.com/img/red.png
+         buttons:
+           - title: Example button D
+             payload: /example_intent
+           - title: Example button E
+             payload: /example_intent
+           - title: Example button F
+             payload: /example_intent
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+
+

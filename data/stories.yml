@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+
+- story: A1
+  steps:
+  - intent: greet # người dùng chào
+  - action: utter_greet # máy trả lời
+  - intent: ask ability
+  - action: utter_ask_ability
+  - intent: khoa công nghệ thông tin
+  - action: utter_khoa_cong_nghe_thong_tin
+  - intent: văn phòng đoàn khoa công nghệ thông tin
+  - action: utter_van_phong_doan_khoa_cntt
+  - intent: hiệu trưởng trường IUH
+  - action: utter_hieu_truong_truong_IUH
+  - intent: đơn vị liên kết với khoa công nghệ thông tin
+  - action: utter_don_vi_lien_ket_voi_khoa_cong_nghe_thong_tin
+  - intent: địa chỉ web của khoa công nghệ thông tin
+  - action: utter_dia_chi_web_khoa_cong_nghe_thong_tin

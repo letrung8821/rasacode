@@ -1,0 +1,158 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - xin chào
+    - chào
+    - buổi tối vui vẻ
+    - sáng tốt lành
+    - chào em
+    - hello em
+    - hi em
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tạm biệt
+    - bai
+    - bái bai
+    - thôi nhá
+    - nghỉ đi
+    - good bye
+    - bye bye
+    - tạm biệt em
+    - tạm biệt bot nhá
+
+- intent: ask ability
+  examples: |
+    - bạn có thể làm gì nhỉ?
+    - bạn có những chức năng gì?
+    - bạn có thể giúp được gì cho mình không?
+    - bạn có thể giúp được gì cho mình?
+    - bạn biết làm gì?
+    - bạn hỗ trợ mình như thế nào?
+    - cho mình xem các chức năng của bạn?
+
+- intent: khoa công nghệ thông tin
+  examples: |
+    - Văn phòng khoa công nghệ thông tin nằm ở?
+    - Cho em hỏi địa chỉ văn phòng khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Văn phòng khoa công nghệ thông tin của trường mình nằm ở đâu vậy ạ?
+    - Khoa công nghệ thông tin có văn phòng tại trường ĐHCN không ạ?
+    - Cho em xin địa chỉ chính xác của văn phòng khoa công nghệ thông tin với ạ?
+    - Tìm giáo vụ khoa công nghệ thông tin ở đâu ạ?
+    - Admin cho em hỏi là tìm giáo vụ khoa công nghệ thông tin ở đâu ạ?
+    - Ad cho em hỏi là tìm giáo vụ khoa công nghệ thông tin ở đâu ạ?
+    - Ad ơi, mình tìm giáo vụ khoa công nghệ thông tin ở đâu được nhỉ?
+    - Địa chỉ của khoa công nghệ thông tin?
+    - Cho em hỏi văn phòng khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Em muốn hỏi một chút là văn phòng khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Admin cho em hỏi, văn phòng khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Ad ơi, văn phòng khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Cho e xin địa chỉ văn phòng khoa công nghệ thông tin vs ad ơi
+    - Em có thể xin địa chỉ văn phòng khoa công nghệ thông tin được không ạ?
+    - Ad ơi, cho mình xin địa chỉ văn phòng khoa công nghệ thông tin với ạ
+    - Cho mình xin địa chỉ văn phòng khoa công nghệ thông tin được không ạ?
+    - Admin ơi, cho mình hỏi là văn phòng khoa công nghệ thông tin nằm ở đâu vậy?
+    - Ad ơi, văn phòng khoa công nghệ thông tin nằm ở đâu trong trường DHCN vậy ạ?
+    - Không biết là văn phòng khoa công nghệ thông tin nằm ở đâu nhỉ?
+    - Văn phòng khoa công nghệ thông tin được đặt ở đâu?
+    - Admin cho em hỏi là văn phòng khoa công nghệ thông tin được đặt ở đâu vậy ạ?
+    - Khoa công nghệ thông tin của trường mình nằm ở đâu vậy ạ?
+    - Cho mình hỏi là địa chỉ văn phòng khoa công nghệ thông tin ở đâu vậy ạ?
+
+- intent: văn phòng đoàn khoa công nghệ thông tin
+  examples: |  
+    - Văn phòng đoàn khoa công nghệ thông tin nằm ở đâu?
+    - Cho em hỏi địa chỉ văn phòng đoàn khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Văn phòng đoàn khoa công nghệ thông tin của trường mình nằm ở đâu vậy ạ?
+    - Khoa công nghệ thông tin có văn phòng đoàn tại trường ĐHCN không ạ?
+    - Cho em xin địa chỉ chính xác của văn phòng đoàn khoa công nghệ thông tin với ạ?
+    - Địa chỉ của đoàn khoa công nghệ thông tin?
+    - Cho em hỏi văn phòng đoàn khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Em muốn hỏi một chút là văn phòng đoàn khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Admin cho em hỏi, văn phòng đoàn khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Ad ơi, văn phòng đoàn khoa công nghệ thông tin nằm ở đâu vậy ạ?
+    - Cho e xin địa chỉ văn phòng đoàn khoa công nghệ thông tin vs ad ơi
+    - Em có thể xin địa chỉ văn phòng đoàn khoa công nghệ thông tin được không ạ?
+    - Ad ơi, cho mình xin địa chỉ văn phòng đoàn khoa công nghệ thông tin với ạ
+    - Cho mình xin địa chỉ văn phòng đoàn khoa công nghệ thông tin được không ạ?
+    - Admin ơi, cho mình hỏi là văn phòng đoàn khoa công nghệ thông tin nằm ở đâu vậy?
+    - Ad ơi, văn phòng đoàn khoa công nghệ thông tin nằm ở đâu trong trường DHCN vậy ạ?
+    - Không biết là văn phòng đoàn khoa công nghệ thông tin nằm ở đâu nhỉ?
+    - Văn phòng đoàn khoa công nghệ thông tin được đặt ở đâu?
+    - Admin cho em hỏi là văn phòng đoàn khoa công nghệ thông tin được đặt ở đâu vậy ạ?
+    - Đoàn khoa công nghệ thông tin của trường mình nằm ở đâu vậy ạ?
+    - Cho mình hỏi là địa chỉ văn phòng đoàn khoa công nghệ thông tin ở đâu vậy ạ?
+- intent: hiệu trưởng trường IUH
+  examples: |
+    - Cho em hỏi ban giám hiệu trường là ai vậy ạ?
+    - Ban giám hiệu trường Đại học Công nghiệp TP. Hồ Chí Minh là những ai?
+    - Ad ơi, ai là người đứng đầu trường mình?
+    - Những người đứng đầu trường?
+    - Page ơi, ban giám hiệu trường có học vị như thế nào vậy ạ?
+    - Ban giám hiệu trường có mấy người?
+    - Có những ai trong đội ngũ ban giám hiệu trường
+    - Ai là hiệu trưởng trường đại học Công nghiệp TP. Hồ Chí Minh?
+    - Trường IUH có bao nhiêu phó hiệu trưởng?
+    - Ban giám hiệu trường gồm những ai?
+    - Ai đang là hiệu trưởng của trường?
+    - Cho em hỏi Phó hiệu trưởng của trường gồm những ai?
+    - Cho em xin danh sách ban giám hiệu trường mình với
+    - Hiệu trưởng trường mình đang có học vị gì vậy ạ?
+
+- intent: đơn vị liên kết với khoa công nghệ thông tin
+  examples: |
+    - Các đơn vị liên kết với khoa công nghệ thông tin? 
+    - Khoa công nghệ thông tin có liên kết với công ty nào để hỗ trợ việc làm cho sinh viên không ạ?
+    - Cho em xin danh sách các công ty mà khoa công nghệ thông tin liên kết ạ?
+    - Admin ơi, cho em hỏi là khoa công nghệ thông tin liên kết với những công ty nào vậy ạ?
+    - Ad cho e hỏi là khoa công nghệ thông tin có liên kết với các công ty bên ngoài không ạ?
+    - Ad ơi, khoa công nghệ thông tin trường mình có liên kết với đơn vị nào không ạ?
+    - Những đơn vị nào liên kết với khoa công nghệ thông tin vậy ạ?
+    - Có công ty nào liên kết với khoa công nghệ thông tin không ạ?
+    - Cho mình xin danh sách các công ty liên kết với khoa công nghệ thông tin với ạ
+    - Ad ơi, khoa công nghệ thông tin trường mình có liên kết với đơn vị nào không ạ?
+    - Admin ơi, cho mình xin danh sách các công ty liên kết với khoa công nghệ thông tin với ạ
+    - Những công ty nào liên kết với khoa công nghệ thông tin vậy Ad?
+    - Admin cho em xin danh sách các bên liên kết với khoa công nghệ thông tin được không ạ?
+  
+- intent: địa chỉ web của khoa công nghệ thông tin
+  examples: |
+    - Địa chỉ trang web của khoa công nghệ thông tin? 
+    - Cho mình xin địa chỉ trang web của khoa công nghệ thông tin với ạ
+    - Khoa công nghệ thông tin trường mình có trang web riêng không ạ?
+    - Ad ơi, website của khoa công nghệ thông tin là gì vậy ạ?
+    - Admin ơi, cho em xin link website của khoa công nghệ thông tin với ạ
+    - Link web của khoa công nghệ thông tin là gì vậy ạ?
+    - Ad cho em xin link website khoa công nghệ thông tin với ạ
+    - Cho mình xin link trang web chính thức của khoa công nghệ thông tin ạ
+    - Link website chính thức của khoa công nghệ thông tin là gì ạ?
+    - Khoa công nghệ thông tin có website chính thức không ạ?
+    - Website khoa công nghệ thông tin là gì vậy?
